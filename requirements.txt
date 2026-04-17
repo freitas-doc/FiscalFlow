@@ -1,0 +1,9 @@
+# requirements.txt - Dependências do Organizador de Notas Fiscais
+
+# Leitura de PDF (instale pelo menos uma das duas)
+pdfplumber>=0.10.0       # Melhor para extração de texto estruturado
+PyPDF2>=3.0.0            # Fallback leve, boa compatibilidade
+
+# (Opcional) OCR para PDFs escaneados — requer Tesseract instalado no sistema
+# pytesseract>=0.3.10
+# Pillow>=10.0.0
